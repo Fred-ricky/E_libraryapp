@@ -6,7 +6,7 @@ from django.contrib.auth.decorators import login_required
 from django.contrib import messages
 
 # Create your views here.
-def Registers(request):
+def Registers(request): 
 	if request.method == 'POST':
 		email = request.POST['email']
 		password = request.POST['password']
